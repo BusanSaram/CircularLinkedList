@@ -20,6 +20,7 @@ public:
 	void UpdateNode(int _index, int _data);
 	void DeleteNodeData(int _data);
 	void DeleteIndex(int _index);
+	void ClearAllNode();
 	int GetNodeData(int _index);
 	bool IsEmpty();
 	void printAll();
